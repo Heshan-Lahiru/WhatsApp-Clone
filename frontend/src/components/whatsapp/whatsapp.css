@@ -1,0 +1,129 @@
+.whatsapp-container {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  .sidebar {
+    width: 30%;
+    background-color: #f6f6f6;
+    border-right: 1px solid #ddd;
+  }
+  .sidebar-header {
+    background-color: #075e54;
+    color: white;
+    padding: 10px;
+  }
+  .chat-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .chat-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .chat-item:hover, .chat-item.selected {
+    background-color: #ebebeb;
+  }
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   
+    background-size: cover;
+    background-position: center;
+    margin-right: 15px;
+  }
+  .chat-info h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  .chat-info p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #666;
+  }
+  .chat-window {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .chat-header {
+    background-color: #075e54;
+    color: white;
+    padding: 10px;
+  }
+  .message-area {
+    flex: 1;
+    background-color: #e5ddd5;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  .message {
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .message-area {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    overflow-y: auto; /* Enable scrolling for long message history */
+    max-height: 400px; /* Adjust based on your layout */
+  }
+  
+  .message {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 60%; /* Limit message width */
+  }
+  
+  .message.sent {
+    align-self: flex-end; /* Align sent messages to the right */
+    background-color: #dcf8c6; /* Light green background for sent messages */
+  }
+  
+  .message.received {
+    align-self: flex-start; /* Align received messages to the left */
+    background-color: #f1f0f0; /* Light gray background for received messages */
+  }
+  
+  .input-area {
+    display: flex;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  .input-area input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+  }
+  .input-area button {
+    background-color: #075e54;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .no-chat-selected {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    color: #555;
+  }
