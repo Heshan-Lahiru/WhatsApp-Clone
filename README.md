@@ -1,6 +1,7 @@
 WhatsApp Clone 📱💬
 
-![Screenshot (169)](https://github.com/user-attachments/assets/9dc535c1-42fc-47a2-a653-530428fcf93f)
+![Screenshot (169)](https://github.com/user-attachments/assets/d5e22d4d-4474-49d6-bbf5-50a1b1ec54e9)
+
 
 
 Welcome to the WhatsApp Clone! This is a simple yet functional web application that replicates the core messaging features of WhatsApp. Users can select different chats, send messages, and see their messages displayed beautifully in a chat interface. 🌟
@@ -18,11 +19,12 @@ Database: MongoDB
 Styling: CSS for a responsive and modern look
 
 Screenshots 📸
-![Screenshot (170)](https://github.com/user-attachments/assets/ceaade27-46e9-49cc-9974-3f45afa661ed)
 
-![Screenshot (168)](https://github.com/user-attachments/assets/4dfecc91-37ce-4124-a00f-e82e4a8295f7)
+![Screenshot (170)](https://github.com/user-attachments/assets/fd618e28-7afc-4234-bbba-3221477d73f4)
 
-![Screenshot (169)](https://github.com/user-attachments/assets/7a057b13-fc08-486b-9587-9689b7000d0a)
+![Screenshot (168)](https://github.com/user-attachments/assets/76c8a88e-20bb-4db2-ad8b-64b620c7ce5e)
+
+![Screenshot (167)](https://github.com/user-attachments/assets/cb758f4c-0e8c-498d-a601-1e96b82e2951)
 
 
 
