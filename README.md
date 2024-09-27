@@ -20,11 +20,12 @@ Styling: CSS for a responsive and modern look
 
 Screenshots 📸
 
-![Screenshot (170)](https://github.com/user-attachments/assets/fd618e28-7afc-4234-bbba-3221477d73f4)
+![WhatsApp Image 2024-09-27 at 2 59 30 PM](https://github.com/user-attachments/assets/72e12de1-a6c0-4af3-9faa-ffcf6761f151)
 
-![Screenshot (168)](https://github.com/user-attachments/assets/76c8a88e-20bb-4db2-ad8b-64b620c7ce5e)
+When you click setting button you can go to setting page like this
 
-![Screenshot (167)](https://github.com/user-attachments/assets/cb758f4c-0e8c-498d-a601-1e96b82e2951)
+![Screenshot (179)](https://github.com/user-attachments/assets/4ee62494-e055-4886-b97a-f65f705d69b3)
+
 
 
 
