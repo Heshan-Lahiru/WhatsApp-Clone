@@ -1,0 +1,102 @@
+.whatsapp-settings {
+    background-color: #f0f2f5;
+    min-height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  }
+  
+  .settings-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+  
+  .settings-header {
+    background-color: #008069;
+    color: white;
+    padding: 26px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-icon {
+    margin-right: 12px;
+  }
+  
+  .settings-header h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .settings-content {
+    padding: 16px;
+  }
+  
+  .profile-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+    background-image: url('/public/my.jpeg'); 
+    background-size: cover;
+    background-position: center; 
+    border-radius: 50%; 
+    margin-right: 16px;
+    overflow: hidden; 
+  }
+  
+  
+  
+  .profile-info h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 4px 0;
+  }
+  
+  .profile-info p {
+    color: #667781;
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .settings-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .settings-item {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .settings-item:hover {
+    background-color: #e9edef;
+  }
+  
+  .item-icon {
+    color: #008069;
+    margin-right: 16px;
+  }
+  
+  .item-content h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 4px 0;
+  }
+  
+  .item-content p {
+    color: #667781;
+    font-size: 14px;
+    margin: 0;
+  }

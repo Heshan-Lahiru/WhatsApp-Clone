@@ -66,7 +66,7 @@
         {/* Sidebar */}
         <div className="sidebar">
           <div className="sidebar-header">
-            <h2>WhatsApp</h2>
+            <h2>WhatsApp <span style={{marginLeft:'190px'}}><a href='/setting'>⚙️</a></span></h2>
           </div>
           <ul className="chat-list">
             {chats.map((chat) => (
